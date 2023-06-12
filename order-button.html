@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>UNIDO NORDELTA</title>
+
+  <link rel="stylesheet" type="text/css" href="index.css">
+
+ 
+
+</head>
+
+ 
+
+<body>
+
+  <div class="container">
+
+    <div class="buttons">
+
+      <a href="nordelta.html"><button class="left">NORDELTA</button></a>
+
+      <a href="puertos.html"><button class="left">PUERTOS</button></a>
+
+      <button type="buttonUnilogo">
+
+      <a href="index.html"><img src="./image/UnidoLogo.png" alt="UnidoLogo" style="text-align:center" width="20%" height="20%" home="0"></img>
+
+      </a>
+
+      </button>
+
+      <a href="nosotros.html"><button class="right">NOSOTROS</button></a>
+
+      <a href="reservas.html"><button class="right">RESERVAS</button></a>
+
+    </div>
+
+ 
+
+    <div class="MenuNavegador">
+
+      <meta name="viewport" content = "width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+      <style>
+
+          body {
+
+              margin:0;
+
+              font-family: Arial, Helvetica, sans-serif;
+
+          }
+
+        </style>
+
+      <img src="./image/UnidoLogo.png" alt="UnidoLogo" style="text-align:center" width="25%" height="25%" home="0"></img>
+
+      <div class="topnav" id="myTopnav">
+
+          <a href="" class="active"></a>
+
+          <a></a>
+
+          <a href="index.html">Home</a>
+
+          <a href="nordelta.html">Nordelta</a>
+
+          <a href="Puertos.html">Puertos</a>
+
+          <a href="Nosotros.html">Nosotros</a>
+
+          <a href="Reservas.html">Reservas</a>
+
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+
+              <img src="./image/icono menu hamburguesa.png" alt="icono menu hamburguesa"  style="text-align:right" width="7%" height="7%" home="0"></img>
+
+          </a>
+
+      </div>
+
+    </div>
+
+ 
+
+    <div class="containerOrder">
+
+      <div class="row">
+
+      <div class="column">
+
+        <h2>Información de Pago</h2>
+
+        <div class="payment-method">
+
+        <h3>Método de Pago</h3>
+
+        <input type="radio" id="efectivo" name="payment" value="efectivo">
+
+        <label for="efectivo">Efectivo</label><br>
+
+        <input type="radio" id="tarjeta" name="payment" value="tarjeta">
+
+        <label for="tarjeta">Tarjeta</label><br>
+
+      </div>
+
+    </div>
+
+    <div class="tarjeta-info">
+
+      <h3>Datos de la Tarjeta</h3>
+
+      <label for="nombre">Nombre del Titular:</label>
+
+      <input type="text" id="nombre" name="nombre"><br>
+
+      <label for="numero">Número de Tarjeta:</label>
+
+      <input type="text" id="numero" name="numero"><br>
+
+      <label for="expiracion">Fecha de Expiración:</label>
+
+      <input type="text" id="expiracion" name="expiracion"><br>
+
+      <label for="cvv">CVV:</label>
+
+      <input type="text" id="cvv" name="cvv"><br>
+
+    </div>
+
+    </div>
+
+    <div class="column">
+
+      <h2>Información de Envío</h2>
+
+      <div class="shipping-info">
+
+      <label for="nombre-envio">Nombre:</label>
+
+      <input type="text" id="nombre-envio" name="nombre-envio"><br>
+
+      <label for="direccion">Dirección:</label>
+
+      <input type="text" id="direccion" name="direccion"><br>
+
+      <label for="ciudad">Ciudad:</label>
+
+      <input type="text" id="ciudad" name="ciudad"><br>
+
+      <label for="codigo-postal">Código Postal:</label>
+
+      <input type="text" id="codigo-postal" name="codigo-postal"><br>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    <div class="container">
+
+      <a href="muchasgracias.html"><button class="left">EJECUTAR COMPRA</button></a>
+
+    </div>
+
+   
+
+    <script>
+
+      function myFunction() {
+
+          var x = document.getElementById("myTopnav");
+
+          if (x.className === "topnav") {
+
+              x.className += " responsive";
+
+          }
+
+          else{
+
+              x.className= "topnav";
+
+          }
+
+      }
+
+  </script>
+
+  </body>
+
+ 
+
+  <footer>
+
+    <div class="column">
+
+      <h3>UNIDO</h3>
+
+      <p>Una propuesta de sabores, colores y texturas que fusiona un espíritu informal
+
+      y relajado con una impronta sofisticada.UNIDO conforma una propuesta simple y compleja, intensa y relajada, fresca y cálida.</p>
+
+    </div>
+
+    <div class="column">
+
+      <h3>INFORMACIÓN</h3>
+
+      <p>info@unidorestaurante.com</p>
+
+      <p>Avenida de los Lagos 685, Nordelta. </p>
+
+      <p>Puertos de Escobar, Av. de los Lagos, Plaza Central</p>
+
+      <p></p>
+
+    </div>
+
+    <div class="column">
+
+      <h3>HORARIOS</h3>
+
+      <p>Apertura</p>
+
+      <p>Lunes: De 9 a 17 hs.</p>
+
+      <p>Martes a domingo: De 9 a 00hs.</p>
+
+      <p>Delivery & Take Away de martes a domingo.</p>
+
+    </div>
+
+ 
+
+  </footer>
+
+  </html>
